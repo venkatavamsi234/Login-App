@@ -14,6 +14,11 @@
 		CE46AAF21F668F83001AE6AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE46AAF01F668F83001AE6AC /* LaunchScreen.storyboard */; };
 		CE46AAFD1F668F83001AE6AC /* Login_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AAFC1F668F83001AE6AC /* Login_AppTests.swift */; };
 		CE46AB081F668F84001AE6AC /* Login_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB071F668F84001AE6AC /* Login_AppUITests.swift */; };
+		CE46AB161F669905001AE6AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB151F669905001AE6AC /* HomeViewController.swift */; };
+		CE46AB181F669963001AE6AC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB171F669963001AE6AC /* SettingsViewController.swift */; };
+		CE46AB1E1F66CA53001AE6AC /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB1D1F66CA53001AE6AC /* NavigationViewController.swift */; };
+		CE46AB201F66CA8C001AE6AC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB1F1F66CA8C001AE6AC /* TabBarViewController.swift */; };
+		CE47EA491F67B2AA00852C93 /* .gitignore.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE47EA481F67B2AA00852C93 /* .gitignore.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		CE46AB031F668F84001AE6AC /* Login AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE46AB071F668F84001AE6AC /* Login_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_AppUITests.swift; sourceTree = "<group>"; };
 		CE46AB091F668F84001AE6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE46AB151F669905001AE6AC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE46AB171F669963001AE6AC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CE46AB1D1F66CA53001AE6AC /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		CE46AB1F1F66CA8C001AE6AC /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = ../TabBarViewController.swift; sourceTree = "<group>"; };
+		CE47EA481F67B2AA00852C93 /* .gitignore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,14 @@
 			children = (
 				CE46AAE71F668F83001AE6AC /* AppDelegate.swift */,
 				CE46AAE91F668F83001AE6AC /* ViewController.swift */,
+				CE46AB1D1F66CA53001AE6AC /* NavigationViewController.swift */,
+				CE46AB1F1F66CA8C001AE6AC /* TabBarViewController.swift */,
 				CE46AAEB1F668F83001AE6AC /* Main.storyboard */,
+				CE46AB171F669963001AE6AC /* SettingsViewController.swift */,
+				CE46AB151F669905001AE6AC /* HomeViewController.swift */,
 				CE46AAEE1F668F83001AE6AC /* Assets.xcassets */,
 				CE46AAF01F668F83001AE6AC /* LaunchScreen.storyboard */,
+				CE47EA481F67B2AA00852C93 /* .gitignore.txt */,
 				CE46AAF31F668F83001AE6AC /* Info.plist */,
 			);
 			path = "Login App";
@@ -234,6 +249,7 @@
 			files = (
 				CE46AAF21F668F83001AE6AC /* LaunchScreen.storyboard in Resources */,
 				CE46AAEF1F668F83001AE6AC /* Assets.xcassets in Resources */,
+				CE47EA491F67B2AA00852C93 /* .gitignore.txt in Resources */,
 				CE46AAED1F668F83001AE6AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE46AB1E1F66CA53001AE6AC /* NavigationViewController.swift in Sources */,
 				CE46AAEA1F668F83001AE6AC /* ViewController.swift in Sources */,
 				CE46AAE81F668F83001AE6AC /* AppDelegate.swift in Sources */,
+				CE46AB161F669905001AE6AC /* HomeViewController.swift in Sources */,
+				CE46AB201F66CA8C001AE6AC /* TabBarViewController.swift in Sources */,
+				CE46AB181F669963001AE6AC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +527,7 @@
 				CE46AB0E1F668F84001AE6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE46AB0F1F668F84001AE6AC /* Build configuration list for PBXNativeTarget "Login AppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +536,7 @@
 				CE46AB111F668F84001AE6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE46AB121F668F84001AE6AC /* Build configuration list for PBXNativeTarget "Login AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +545,7 @@
 				CE46AB141F668F84001AE6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
