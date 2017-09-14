@@ -19,6 +19,7 @@
 		CE46AB1E1F66CA53001AE6AC /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB1D1F66CA53001AE6AC /* NavigationViewController.swift */; };
 		CE46AB201F66CA8C001AE6AC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB1F1F66CA8C001AE6AC /* TabBarViewController.swift */; };
 		CE47EA491F67B2AA00852C93 /* .gitignore.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE47EA481F67B2AA00852C93 /* .gitignore.txt */; };
+		CE4A91621F69145A00117E47 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A91611F69145A00117E47 /* RandomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CE46AB1D1F66CA53001AE6AC /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		CE46AB1F1F66CA8C001AE6AC /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = ../TabBarViewController.swift; sourceTree = "<group>"; };
 		CE47EA481F67B2AA00852C93 /* .gitignore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore.txt; sourceTree = "<group>"; };
+		CE4A91611F69145A00117E47 /* RandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +112,11 @@
 				CE46AAE71F668F83001AE6AC /* AppDelegate.swift */,
 				CE46AAE91F668F83001AE6AC /* ViewController.swift */,
 				CE46AB1D1F66CA53001AE6AC /* NavigationViewController.swift */,
-				CE46AB1F1F66CA8C001AE6AC /* TabBarViewController.swift */,
 				CE46AAEB1F668F83001AE6AC /* Main.storyboard */,
-				CE46AB171F669963001AE6AC /* SettingsViewController.swift */,
+				CE46AB1F1F66CA8C001AE6AC /* TabBarViewController.swift */,
 				CE46AB151F669905001AE6AC /* HomeViewController.swift */,
+				CE46AB171F669963001AE6AC /* SettingsViewController.swift */,
+				CE4A91611F69145A00117E47 /* RandomViewController.swift */,
 				CE46AAEE1F668F83001AE6AC /* Assets.xcassets */,
 				CE46AAF01F668F83001AE6AC /* LaunchScreen.storyboard */,
 				CE47EA481F67B2AA00852C93 /* .gitignore.txt */,
@@ -278,6 +281,7 @@
 				CE46AB1E1F66CA53001AE6AC /* NavigationViewController.swift in Sources */,
 				CE46AAEA1F668F83001AE6AC /* ViewController.swift in Sources */,
 				CE46AAE81F668F83001AE6AC /* AppDelegate.swift in Sources */,
+				CE4A91621F69145A00117E47 /* RandomViewController.swift in Sources */,
 				CE46AB161F669905001AE6AC /* HomeViewController.swift in Sources */,
 				CE46AB201F66CA8C001AE6AC /* TabBarViewController.swift in Sources */,
 				CE46AB181F669963001AE6AC /* SettingsViewController.swift in Sources */,

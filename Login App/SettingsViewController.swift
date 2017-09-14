@@ -24,10 +24,10 @@ class SettingsViewController: UIViewController {
     @IBAction func redirectingMethod(_ sender: Any) {
         
         
-        let alert = UIAlertController(title: "UIAlertController", message: "Would you like to signOut", preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: "SignOut", message: "Would you like to signOut", preferredStyle: UIAlertControllerStyle.alert)
         
         alert.addAction(UIAlertAction(title: "Continue", style: UIAlertActionStyle.default, handler: signOut))
-        alert.addAction(UIAlertAction(title: "No", style: UIAlertActionStyle.cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler: nil))
         
         self.present(alert, animated: true, completion: nil)
         
