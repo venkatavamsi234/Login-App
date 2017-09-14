@@ -78,11 +78,11 @@ class RandomViewController: UIViewController {
                 
                 if let result = jsonDictionary["results"] as? [[String:Any]] {
                     
-                    let  array = result[0]
+                    let  userDetails = result[0]
                     
                     
                     
-                    if let userName = array["name"] as? [String: String]  {
+                    if let userName = userDetails["name"] as? [String: String]  {
                         
                         if let firstName = userName["first"], let secondName = userName["last"], let title = userName["title"]  {
                             
@@ -92,19 +92,19 @@ class RandomViewController: UIViewController {
                         
                     }
                     
-                    if let email = array["email"] {
+                    if let email = userDetails["email"] {
                         
                         self.emailId.text = email as? String
                         
                     }
                     
-                    if let birthDate = array["dob"]  {
+                    if let birthDate = userDetails["dob"]  {
                         
                         self.dateOfBirth.text = birthDate as? String
                         
                     }
                     
-                    if let image = array["picture"] as? [String: String] {
+                    if let image = userDetails["picture"] as? [String: String] {
                         
                         for picture in image.keys {
                             
